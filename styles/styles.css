@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.yellow {
+    color: hsl(47, 88%, 63%)
+}
+
+.white {
+    color: hsl(0, 0%, 100%);
+}
+
+.gray-500 {
+    color: hsl(0, 0%, 42%)
+}
+
+.gray-950 {
+    color: hsl(0, 0%, 7%);
+}
+
+body {
+    /* font-family: "Outfit", sans-serif; */
+    font-family: "Figtree", sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    /* color: hsl(0, 0%, 7%) */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 16px;
+    max-width: 320px;
+    text-align: start;
+    box-shadow: 10px 10px;
+    /* width: calc(25%); */
+}
+
+.img-class {
+    /* padding: 10px; */
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.title-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    background-color: hsl(47, 88%, 63%);
+    width: 27%;
+    text-align: center;
+    color: hsl(0, 0%, 7%);
+    font-style: 700;
+    padding: 8px 8px 8px 8px;
+    border-radius: 6px;
+
+}
+
+.subtitle-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: hsl(0, 0%, 7%);
+}
+
+.title-description {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.title-description:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.description-text {
+    margin-bottom: 16px;
+    line-height: 140%;
+    font-size: 14px;
+    color: hsl(0, 0%, 42%);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+    gap: 8px;
+    /* font-style: Bold; */
+    font-weight: 800;
+    font-size: 11px;
+
+    p {
+        display: flex !important;
+        align-items: center;
+        justify-content: center !important;
+    }
+}
+
+.image-avatar {
+    width: 36px;
+    /* width: 0px; */
+}
